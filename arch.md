@@ -206,6 +206,14 @@ Language Runtime Metrics display key language-specific performance metrics, like
 
 -----
 
+#### Heroku Dashboard + Metrics
+
+The Heroku Dashboard is at the center of the developer’s Heroku experience. Dashboard is where you manage all of your apps and organizations, scale your deployments up or down, and manage databases and add-ons. The Heroku Dashboard makes all of this much easier and more intuitive, with thoughtfully designed workflows and UI.
+
+Heroku Metrics, a feature within Dashboard available to paid apps, gives you powerful insights on the runtime characteristics of your applications, allowing you to seamlessly monitor and fine tune performance within your regular workflow. You have direct visibility into your app’s throughput, response time, errors, memory, and CPU load data, all delivered in an intuitive display designed to help you spot and resolve problems. Visit the Heroku operational experience page to learn more about Heroku Metrics and other integrated features you can use to maintain application health, increase visibility, and diagnose issues.
+
+![herkou dashboard](img/heroku-dashboard.png)
+
 
 ![h1](img/h1.png)
 ----
