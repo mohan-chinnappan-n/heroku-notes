@@ -28,13 +28,15 @@
 ----
 
 ![h9](img/h9.png)
+
+[More details](ps.md)
 ----
 
 ![h10](img/h10.png)
 ----
 
 
-![h11(img/h11.png)
+![h11](img/h11.png)
 ----
 
 ![h12](img/h12.png)
