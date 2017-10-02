@@ -218,6 +218,8 @@ Heroku Metrics, a feature within Dashboard available to paid apps, gives you pow
 
 #### Apache Kafka on Heroku
 
+
+
 What is Kafka?
 
 Apache Kafka is a distributed commit log for fast, fault-tolerant communication **between producers and consumers** using message based topics.
@@ -263,6 +265,8 @@ Kafka lets you rethink the relationship between data, time and operations in you
 
 #### Kafka on Heroku
 
+![kafka heroku working](img/heroku-kafka-1.gif)
+
 You can consume Kafka as a service with Heroku’s world-class orchestration and thoughtfully tuned configurations that keep Kafka fast and robust. 
 
 We distribute Kafka resources across network zones for fault-tolerance, and ensure your Kafka cluster is always available and addressable.
@@ -280,6 +284,30 @@ Run producers and consumers as Heroku apps for simple vertical and horizontal sc
 ![heroku kafka dashboard](img/heroku-kafka-dashboard.png)
 
 ----
+
+#### Sample Kafka Demo
+
+![Sample Kafka Demo](img/kafka-on-heroku.gif)
+
+This system consumes data from the Twitter Streaming API, manipulates the data using a series of Heroku apps, and generates a dynamic visualization of the manipulated data.
+
+The Kafka cluster is represented by the large light purple rectangle. Within that, each named rectangle represents a Kafka topic. The hexagons are Heroku apps that manipulate data. They produce data to and/or consume data from Kafka topics.
+
+
+
+The architecture uses five Heroku apps, each serving a different role in the data pipeline.
+
+1. Data Ingest: Read from Twitter streaming API and produce messages for high volume ingest on Kafka topic
+
+2. Data Fanout: Consume ingested messages and fans out to discrete keyword Kafka topics
+
+3. Aggregate Statistic Calculation: Consume messages from keyword Kafka topics, and calculate and produce aggregate mention count to a topic
+
+4. Related Terms Generation: Consumes messages from keyword Kafka topics, and produce related words & related word count to a topic
+
+5. Visualization: Consume messages from aggregate and related words Kafka topics and generate the dynamic stream visualizations in a web application
+
+
 
 
 
@@ -332,5 +360,8 @@ Run producers and consumers as Heroku apps for simple vertical and horizontal sc
 
 1. [Platform](https://www.heroku.com/platform)
 2. [Runtime](https://www.heroku.com/platform/runtime)
+3. [Building Event Driven Architectures 
+with Apache Kafka on Heroku](https://www.heroku.com/tech-sessions/get-started-with-apache-kafka)
+4.
 
 
