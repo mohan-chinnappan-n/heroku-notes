@@ -261,6 +261,26 @@ Kafka lets you rethink the relationship between data, time and operations in you
 
 ------
 
+#### Kafka on Heroku
+
+You can consume Kafka as a service with Heroku’s world-class orchestration and thoughtfully tuned configurations that keep Kafka fast and robust. 
+
+We distribute Kafka resources across network zones for fault-tolerance, and ensure your Kafka cluster is always available and addressable.
+
+
+**Elegant developer experience**
+
+Easy to use CLI and web tooling make Kafka simple to provision, configure and operate. Add topics, create partitions, manage log compaction, and monitor key metrics from the comfort of the CLI or Heroku Dashboard.
+
+**Seamless integration with apps**
+
+Run producers and consumers as Heroku apps for simple vertical and horizontal scalability. Config vars make it easy to securely connect to your Kafka cluster, so you can focus on your core logic.
+
+
+![heroku kafka dashboard](img/heroku-kafka-dashboard.png)
+
+----
+
 
 
 ![h1](img/h1.png)
