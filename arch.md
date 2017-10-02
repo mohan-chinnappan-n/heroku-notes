@@ -12,18 +12,23 @@ The Heroku developer experience is an **app-centric approach for software delive
 
 ![heroky platform](img/heroku-arch-2.gif)
 
- 
+----
 
 **Heroku Runtime**
 
-Heroku runs your apps inside **dynos* — smart containers on a reliable, fully managed runtime environment.
+Heroku runs your apps inside **dynos** — smart containers on a reliable, fully managed runtime environment.
 
 Developers deploy their code written in Node, Ruby, Java, PHP, Python, Go, Scala, or Clojure to a build system which produces an app that's ready for execution. 
 
 The system and language stacks are monitored, patched, and upgraded, so it's always ready and up-to-date. The runtime keeps apps running without any manual intervention.
 
+-----
 
--
+**Scale**
+
+![heroky platform](img/heroku-scale-1.gif)
+
+
 
 ![h1](img/h1.png)
 ----
