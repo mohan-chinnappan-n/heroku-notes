@@ -2,5 +2,6 @@
 
 1. [Architecture](arch.md)
 2. [Private Spaces](ps.md)
-2. [Kafka](kafka.md)
+3. [Kafka](kafka.md)
+4. [Flow](flow.md)
 
