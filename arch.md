@@ -362,6 +362,6 @@ The architecture uses five Heroku apps, each serving a different role in the dat
 2. [Runtime](https://www.heroku.com/platform/runtime)
 3. [Building Event Driven Architectures 
 with Apache Kafka on Heroku](https://www.heroku.com/tech-sessions/get-started-with-apache-kafka)
-4.
+
 
 
