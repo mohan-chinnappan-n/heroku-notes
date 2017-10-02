@@ -8,6 +8,9 @@ The Heroku developer experience is an **app-centric approach for software delive
 
 ![heroky platform](img/heroku-arch-2.png)
 
+ 
+ <div style="page-break-after: always;"></div>
+
 **Flow**
 
 ![heroky platform](img/heroku-arch-2.gif)
