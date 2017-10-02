@@ -66,6 +66,87 @@ Heroku Postgres provides **trusted database options at terabyte scale**. Dyno ch
 
 -----
 
+
+**Data Services and Ecosystem**
+
+Heroku Elements let developers extend their apps with Add-ons, customize their application stack with Buildpacks and jumpstart their projects with Buttons. 
+
+Add-ons are 3rd party cloud services that developers can use to immediately extend their apps with a range of functionality such as data stores, logging, monitoring and more. 
+
+Heroku provides three fully-managed data service Add-ons: **Heroku Postgres, Heroku Redis, and Apache Kafka** on Heroku.
+
+----
+
+**Heroku Developer Experience (DX)**
+
+The Heroku Developer Experience is an app-centric approach to software delivery so developers can focus on creating and continuously delivering applications, without being distracted by servers or infrastructure.
+
+ Developers deploy directly from popular tools like **Git, GitHub or Continuous Integration (CI) systems**. The intuitive web-based Heroku Dashboard makes it easy to manage your app and gain greater visibility into performance.
+
+----
+
+**Heroku Operational Experience (OpEx)**
+
+The Heroku Operational Experience is a key component of the platform. It helps developers through **troubleshooting and remediation of common issues** and customizing their ops experience to quickly identify and address negative trends in their application health. 
+
+Threshold Alerting and Autoscaling:
+
+Heroku provides **a set of tools to alert you** if something goes wrong, or to automatically scale your web dynos if the response time for web requests exceeds a threshold you specify.
+
+ Application metrics, Threshold Alerting, and Autoscaling are some of the features you get access to with no extra cost.
+
+----
+
+### Runtime
+
+**Smart Containers**
+
+The Heroku platform runs your apps inside smart containers called **dynos**. 
+
+Dynos work in tight coordination with the dyno manager to provide a range of benefits to your app like security, isolation, and scalability.
+
+**Container Orchestration**
+
+The dyno manager, a part of the Heroku Runtime, coordinates and manages all your app’s dynos. Failed dynos are cycled and all components are reset and refreshed upon a redeploy. If there are any failures in the underlying hardware, all your dynos are moved to a new location without any manual intervention.
+
+----
+
+**Log Aggregation**
+
+The Heroku Runtime aggregates logs from the output streams of your app, system components, and backing services and sends them into a single channel using Heroku’s Logplex. Heroku aggregates three categories of logs for your app: app logs, system logs, and API logs.
+
+**HTTP Routing and load-balancing**
+
+A set of routers automatically routes HTTP requests from your app’s hostname(s) to your web dynos. The router uses a **random selection algorithm** to distribute traffic across your web dynos.
+
+----
+
+**Release Management**
+
+With every code deploy a new release is created and stored on Heroku. You can list the history of releases, and use **rollbacks** to revert to prior releases for backing out of bad deploys.
+
+**Configuration Management**
+
+Configuration may vary between different environments. Heroku uses config vars to keep track of environment configurations. Each time a config var is updated, it creates a new release so you can can roll back to any previous release to have the config vars restored.
+
+----
+
+**SSL and Certificate Management**
+
+Heroku SSL and Automated Certificate Management are included at **no additional charge** on any app using paid dynos. 
+
+The Heroku router terminates SSL for your app’s custom domains. With Automated Certificate Management, a TLS certificate is generated for your custom domains automatically.
+
+
+**Horizontal and Vertical Scaling**
+
+You can **horizontally** scale any app running on Standard or Performance dynos by **increasing the number of dynos** from the Heroku Dashboard or CLI.
+
+You can change dyno types to **vertically** scale your app by running on dynos with more CPU and memory capacity.
+
+
+
+
 ![h1](img/h1.png)
 ----
 
@@ -114,4 +195,6 @@ Heroku Postgres provides **trusted database options at terabyte scale**. Dyno ch
 #### Resources
 
 1. [Platform](https://www.heroku.com/platform)
+2. [Runtime](https://www.heroku.com/platform/runtime)
+
 
