@@ -11,7 +11,7 @@ The Heroku developer experience is an **app-centric approach for software delive
  
  <div style="page-break-after: always;"></div>
 
-**Flow**
+**Flow** 
 
 ![heroky platform](img/heroku-arch-2.gif)
 
@@ -213,6 +213,54 @@ The Heroku Dashboard is at the center of the developer’s Heroku experience. Da
 Heroku Metrics, a feature within Dashboard available to paid apps, gives you powerful insights on the runtime characteristics of your applications, allowing you to seamlessly monitor and fine tune performance within your regular workflow. You have direct visibility into your app’s throughput, response time, errors, memory, and CPU load data, all delivered in an intuitive display designed to help you spot and resolve problems. Visit the Heroku operational experience page to learn more about Heroku Metrics and other integrated features you can use to maintain application health, increase visibility, and diagnose issues.
 
 ![herkou dashboard](img/heroku-dashboard.png)
+
+---
+
+#### Apache Kafka on Heroku
+
+What is Kafka?
+
+Apache Kafka is a distributed commit log for fast, fault-tolerant communication **between producers and consumers** using message based topics.
+
+Kafka provides the messaging backbone for building a new generation of distributed applications capable of handling billions of events and millions of transactions.
+
+![Kafka](img/heroku-kafka.png)
+
+
+
+----
+
+
+**Take control of your events**
+
+Events are everywhere — user activity streams, log events, telemetry from embedded devices and mobile phones, and more. 
+
+Kafka flips the script from push to pull, letting you take control of high volume event streams in your applications to transform the customer experience. 
+
+With Kafka, you can accept inbound events at any scale with ease and route them to key-based partitions, providing a clear path to real-time stream processing for user activity tracking, ad tracking, IoT, mobile sync and messaging systems.
+
+
+**Build modern application architectures**
+
+Application architectures like microservices require new approaches to coordination, scaling and orchestration. 
+
+Kafka’s pull based communication model reduces backpressure on key services under load, letting you add and scale new services independently. 
+
+Kafka enables moving from actor to channel centric app dev models, simplifying services discovery and reducing brittle RPC style and many-to-many coordination between services.
+
+ 
+**New ways to process data and time**
+
+Kafka lets you rethink the relationship between data, time and operations in your application.
+
+ Kafka takes transactional data in tables and reduces it to a series of events, each representing a keyed record and operation at a point in time. 
+ 
+ This lets you create a record of all change events in your application for data recovery, replay, simulation and auditing. 
+ 
+ These same primitives let you build powerful data processing pipelines for analytics and transformation use cases, with consumers reading data from a set of topics, applying functions, and writing the output to a new set of topics.
+
+------
+
 
 
 ![h1](img/h1.png)
