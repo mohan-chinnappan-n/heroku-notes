@@ -310,6 +310,7 @@ The architecture uses five Heroku apps, each serving a different role in the dat
 
 
 
+#### Key points about Heroku
 
 ![h1](img/h1.png)
 ----
