@@ -145,6 +145,66 @@ You can **horizontally** scale any app running on Standard or Performance dynos 
 You can change dyno types to **vertically** scale your app by running on dynos with more CPU and memory capacity.
 
 
+-----
+
+
+### Heroku OpEx
+
+Heroku’s operational experience (OpEx) lets you focus on what’s most important - maintaining application health and providing an optimal experience for your end users. 
+
+Sit back and let the platform monitor the key indicators of app health like responsiveness and request failures, alert you proactively so you can find (and fix) issues before your users do, and effortlessly scale to meet increases in demand. 
+
+We run **one of the world’s largest PaaS platforms** hosting millions of apps, so we understand the value of operations and know your time is valuable. That’s why we provide integrated tools to increase application visibility, diagnose issues, receive proactive notifications and remediate issues to help developers and operations staff maintain apps in a healthy state. 
+
+The platform manages all downstack components freeing you to focus on application operations, not infrastructure.
+
+
+
+**Application Metrics**
+
+Application metrics help you identify, investigate, and diagnose issues. Metrics provides key attributes of app health including response time, throughput, errors, dyno load, and memory, unified on a single time axis so you can see correlations.
+
+ Accessible via the Heroku Dashboard, Application Metrics are available on all paid dynos.
+
+
+**Threshold Alerting**
+
+Threshold Alerting lets you specify limits on web dyno 95th percentile response time and the percentage of failed requests, above which an alert will be triggered. 
+
+Email, PagerDuty, and dashboard notifications are supported. Threshold Alerting is available to apps running on Professional or Private dynos.
+
+
+**Autoscaling**
+
+Autoscaling horizontally scales your app’s web dynos to meet your specified 95th percentile response time threshold, based on your existing throughput. With autoscaling there’s no need to anticipate your traffic spikes. Autoscaling is included for free on Performance and Private dynos.
+
+
+**Consolidated Logs**
+
+Tail and view the logs for your application within the Dashboard or via the command line interface (CLI) to gain more in-depth details about events and errors. 
+
+Drain your logs using one of the many logging add-on providers in the Elements marketplace for long-term storage, search, filtering and troubleshooting.
+
+
+**App webhooks**
+
+App webhooks allow you to subscribe to events and receive notifications when changes are made to your Heroku app. 
+
+Webhooks make it easy to integrate changes like dyno formation changes or app releases into your operational workflow.
+
+
+
+**Heroku Exec**
+
+Heroku Exec allows you to connect to a dyno at runtime via **SSH** to make debugging easier. With Exec you can copy files off of a dyno, attach a remote debugger via local port forwarding, and take advantage of common Java debugging tools.
+ 
+ 
+**Runtime Metrics**
+
+Language Runtime Metrics display key language-specific performance metrics, like heap and non-heap memory and garbage collection activity, to gain insights into the root cause of application performance problems.
+
+
+-----
 
 
 ![h1](img/h1.png)
