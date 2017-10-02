@@ -31,7 +31,40 @@ The system and language stacks are monitored, patched, and upgraded, so it's alw
 
 ![heroky platform](img/heroku-scale-1.gif)
 
+-----
 
+**Developer-centric**
+
+At Heroku, we believe that developers are the most important part of transforming every company into an apps company. That’s why a great developer experience has always been at the very heart of what we do. 
+
+Heroku understands what adds value to developers and what gets in the way. 
+
+We move all the mundane tasks out of the way and add features and functionality that **delight and inspire developers** to do their best work.
+
+-----
+
+**App-centric**
+
+The Heroku Platform is designed so you can focus on what matters the most: the app. 
+
+Getting apps out in the wild, in front of real users, and then iterating fast, is what can make or break companies. 
+
+Heroku lets companies of all sizes embrace the value of apps, not the hassle of hardware, nor the distraction of servers — virtual or otherwise.
+
+
+-----
+
+**Production-centric**
+
+The Heroku Platform is great for the early part of the app lifecycle, but it really shines when you go into production. 
+
+Heroku seamlessly supports every step of the app lifecycle — build, run, manage and scale. 
+
+Heroku Postgres provides **trusted database options at terabyte scale**. Dyno choices to suit your needs, including performance dynos for your highest traffic apps — all scalable in an instant.
+
+ Heroku keeps the **kernel up-to-date** with the **latest security patches**. All backed by the **trust and reliability of Salesforce**.
+
+-----
 
 ![h1](img/h1.png)
 ----
